@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Arial', sans-serif;
+  @apply bg-red-50;
+}
+
+button:focus {
+  outline: none;
+  @apply ring-2 ring-red-300;
+}
